@@ -11,7 +11,7 @@
 
 ---
 
-## 📚 RAG Module
+## 📚 RAG module
 
 ### Features:
 - Simple implementation of a RAG pipeline.
@@ -24,6 +24,19 @@
 > 📝 Includes `attention.pdf` and `speech.txt` as source documents for retrieval.
 
 ---
+##🔗 Chain Module
+###Features:
+- Advanced retrieval-augmented generation (RAG) system.
+
+- Uses Hugging Face embeddings (sentence-transformers/all-mpnet-base-v2).
+
+- Stores and searches vectors using FAISS for fast retrieval.
+
+- Uses a custom prompt template with {context} and {input} — automatically handled by LangChain.
+
+- 'retriever.ipynb' demonstrates full pipeline from query to response.
+
+
 
 ## 📦 Installation
 
