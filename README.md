@@ -8,11 +8,6 @@ This repository serves as a collection of modular LangChain implementations, exp
 - [🔗 Chain Module](#-chain-module)
 - [🔥 Agents Module](#-agents-module)
 - [📦 Installation](#-installation)
-- [🚀 Usage Examples](#-usage-examples)
-- [🤝 Contributing](#-contributing)
-- [📄 License](#-license)
-- [📧 Contact](#-contact)
-
 ---
 
 ## 🤖 Chatbot Module
