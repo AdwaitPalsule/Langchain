@@ -32,6 +32,17 @@
 - `retriever.ipynb` demonstrates full pipeline from query to response.
 
 ---
+## agents module: Multi-Tool & RAG Integration
+
+This repository focuses on the **`agents` module** within LangChain, demonstrating how to build an AI agent capable of dynamic tool use.
+
+The core of this project is an agent powered by a **local Ollama LLM (`llama3.2`)** that can:
+
+* **Access General Knowledge**: Utilizes Wikipedia for broad queries.
+* **Search Scientific Papers**: Integrates ArXiv for research-specific information.
+* **Perform Targeted Documentation Search (RAG)**: Employs a custom Retrieval-Augmented Generation (RAG) tool built on LangSmith documentation to answer highly specific questions using relevant data.
+
+This setup showcases how agents can intelligently combine LLM reasoning with specialized tools to answer complex questions effectively.
 
 ## 📦 Installation
 
