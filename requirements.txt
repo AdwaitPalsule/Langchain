@@ -9,3 +9,5 @@ uvicorn
 bs4
 PyPDF
 Faiss-cpu
+arxiv
+wikipedia
